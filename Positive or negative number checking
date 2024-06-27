@@ -10,3 +10,11 @@ else:
 output:
 17
 Positive
+
+--------------or---------
+n=int(input())
+print("positive" if n>0 else "negative")
+
+output:
+17
+positive
