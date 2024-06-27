@@ -1,0 +1,39 @@
+n=int(input())
+if n%2==0:
+	print("even")
+else:
+	print("odd")
+
+
+output:
+5
+odd 
+	--------or---------
+	
+n=int(input())
+print("even" if n%2==0 else "odd")
+
+
+
+
+output:
+8
+even
+
+
+-------------or----------
+n=int(input())
+def t(n):
+	return not n&1
+if t(n):
+	print("even")
+	
+else:
+	print("odd")
+
+
+output:
+
+
+17
+off
